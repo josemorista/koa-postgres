@@ -1,0 +1,16 @@
+version: '3.1'
+
+services: 
+  postgres:
+    image: postgres
+    container_name: koa-pg-postgres
+    environment: 
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=koa-app
+    ports:
+      - 5432:5432
+    volumes:
+      - pdata:/var/lib/postgresql/data
+
+volumes:
+  pdata:
