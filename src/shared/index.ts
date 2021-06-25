@@ -9,6 +9,6 @@ app.on('error', (error) => {
 	console.error('Server error', error);
 });
 
-app.listen(3333, () => {
+app.listen(3000, () => {
 	console.log('Server is on!');
 });
