@@ -21,7 +21,7 @@ or
 npm run migration:run
 ```
 
-### Web serverr
+### Web server
 
 ```
 yarn dev:server
