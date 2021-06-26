@@ -3,6 +3,8 @@ Clean code Api with postgres native driver and running migrations and Koa as mic
 
 ## Installation and setup
 
+Requires Node.Js and npm or yarn installed.
+
 ```
 yarn
 ```
@@ -13,6 +15,8 @@ npm install
 
 ## Migrations
 
+To run all migrations, create a local database or modify database connection file and simple run:
+
 ```
 yarn migration:run
 ```
@@ -22,6 +26,8 @@ npm run migration:run
 ```
 
 ### Web server
+
+To start the Koa server, simply run:
 
 ```
 yarn dev:server
