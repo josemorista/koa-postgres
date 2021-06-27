@@ -4,7 +4,7 @@ import { UsersRepository } from '../../infra/pg/repositories/UsersRepository';
 import { CreateUserService } from '../../services/CreateUserService';
 
 const usersRouter = new Router({
-	prefix: '/users'
+	prefix: '/dev/users'
 });
 
 usersRouter.post('/', koaBody(), async (context) => {
